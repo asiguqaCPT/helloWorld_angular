@@ -16,7 +16,7 @@
     },
     "start": {
       "name": "start",
-      "command": "yarn start",
+      "command": "npm start",
       "runAtStart": true
     },
     "build": {
