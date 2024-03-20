@@ -2,8 +2,8 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "npm install",
-      "name": "n"
+      "name": "n",
+      "command": "npm install"
     }
   ],
 
@@ -11,8 +11,7 @@
   "tasks": {
     "ng": {
       "name": "ng",
-      "command": "yarn ng",
-      "runAtStart": false
+      "command": "yarn ng"
     },
     "start": {
       "name": "start",
@@ -21,23 +20,19 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "watch": {
       "name": "watch",
-      "command": "yarn watch",
-      "runAtStart": false
+      "command": "yarn watch"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "e2e": {
       "name": "e2e",
-      "command": "yarn e2e",
-      "runAtStart": false
+      "command": "yarn e2e"
     }
   }
 }
